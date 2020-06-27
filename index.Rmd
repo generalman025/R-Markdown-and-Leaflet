@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r cars}
 library(leaflet)
-my_map <- leaflet() %>% addTiles()
-my_map
+my_university <- leaflet() %>% addTiles() %>% addMarkers(lat=13.7925349, lng=100.3268943, popup='Mahidol University')
+my_university
 ```
 
