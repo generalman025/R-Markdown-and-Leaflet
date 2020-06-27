@@ -1,0 +1,19 @@
+---
+title: "R Markdown and Leaflet"
+author: "Kiattisak Chaisomboon"
+date: "27/6/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 27 June 2020
+
+```{r cars}
+library(leaflet)
+my_map <- leaflet() %>% addTiles()
+my_map
+```
+
